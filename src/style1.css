@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+body{
+    background-color: #100241;
+}
+
+ .startdiv{
+    height: 100px;
+    position: absolute;
+    top: 35%;
+    left: 30%;
+}
+
+   
+ 
+
+#welc{
+    font-size: 3rem;
+    color: aliceblue;
+    display: block;
+
+}
+
+
+
+#tex{
+    padding: 10px 24px;
+    width: 40%;
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: 1.5rem;
+    font-weight: 900;
+    font-family: sans-serif;
+    display: block;
+    position: absolute;
+    top: 50px;
+    left: 25%;
+    background-color: #220653;
+}
+
+
+.btn{
+    width: 20%;
+    padding: 14px;
+    border: 2px soild white;
+    border-radius: 8px;
+    background-color: crimson;
+    font-size: 1.5rem;
+    color: aliceblue;
+    font-weight: 700;
+    font-family: sans-serif;
+    cursor: pointer;
+    position: absolute;
+    top: 105%;
+    left: 38%;
+}
+
+@media (max-width:1000px)
+{
+    .startdiv{
+        height: 100px;
+        position: absolute;
+        top: 35%;
+        left: 25%;
+    }
+
+    .btn{
+        width: 26%;
+        font-size: 2rem;
+    }
+
+    .welc{
+        font-size: 2.5rem;
+    }
+
+}
+
+@media (max-width:646px)
+{
+
+    .startdiv{
+        height: 100px;
+        position: absolute;
+        top: 35%;
+        left: 24%;
+    }
+
+    .btn{
+        font-size: 3rem;
+        width: 40%;
+        left:25%
+    }
+
+    #tex{
+        padding: 10px 24px;
+        width: 50%;
+        border-radius: 10px;
+        color: aliceblue;
+        font-size: 3rem;
+        font-weight: 800;
+        font-family: sans-serif;
+        display: block;
+        position: absolute;
+        top: 50px;
+        left: 15%;
+        background-color: #220653;
+    }
+
+    .welc{
+        font-size:3rem;
+    }
+    
+
+
+
+}
+
+@media (max-width:368px)
+{
+    #welc{
+        font-size:2.8rem
+    }
+
+    .startdiv{
+        height: 100px;
+        position: absolute;
+        top: 35%;
+        left: 14%;
+    }
+    .btn{
+        font-size: 2.2rem;
+        width: 40%;
+        left:25%
+    }
+
+    #tex{
+        padding: 10px 20px;
+        width: 40%;
+        border-radius: 10px;
+        color: aliceblue;
+        font-size: 2.2rem;
+        font-weight: 800;
+        font-family: sans-serif;
+        display: block;
+        position: absolute;
+        top: 50px;
+        left: 15%;
+        background-color: #220653;
+    }
+}
